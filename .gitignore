@@ -1,0 +1,34 @@
+# Abhängigkeiten
+/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Verzeichnis für gebaute Ausgaben
+/dist
+/build
+
+# Versteckte Dateien und Verzeichnisse
+.DS_Store
+.env
+.vscode/
+.idea/
+
+# OS generierte Dateien
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Temporäre Dateien
+*.temp
+*.swp
