@@ -4,29 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meine Website</title>
-    <link rel="stylesheet" href ="style.css">
+    <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    
     <header class="header">
-    <a href="#home" class ="logo">
-        Dominick <span> Schustereit de la Rosa</span>
-    </a>
+        <a href="#home" class="logo">Dominick <span>Schustereit de la Rosa</span></a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">Über mich</a>
+            <a href="#skills">Fähigkeiten</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
     
-    <i class="bx bx-menu" id="menu-icon"></i>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hallo, Ich bin's <span>Dominick</span></h1>
+            <h3 class="text-animation">Ich bin ein angehender <span>Applikationsentwickler</span></h3>
+            <p>Mein Name ist Dominick Schustereit de la Rosa. Ich bin 20 Jahre alt, angehender Applikationsentwickler und bei der VP Bank in Liechtenstein angestellt.</p>
+            <div class="social-icons">
+                <a href="#"><i class="bx bxl-github"></i></a>
+                <a href="#"><i class="bx bxl-linked-square"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="TEST.jpeg" alt="">
+        </div>
+    </section>
 
-
-    <nav class="navbar">
-        <a href="#home" class ="active">Home</a>
-        <a href="#about">Über mich</a>
-        <a href="#skills">Fähigkeiten</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#kontakt">Kontakt</a>
-
-
-
-        <script src="script.js"></script> 
+    <script src="script.js"></script>
 </body>
 </html>
